@@ -78,8 +78,3 @@ To get started with this project, follow these steps:
 
 5. Access the API documentation to explore and interact with the available endpoints by navigating to the provided URL (e.g., `http://localhost:8000/docs` or `http://localhost:8000/redoc`).
 
-## Additional Information
-
-For any additional information or questions related to this challenge, please refer to the documentation or reach out to the project maintainers.
-
-Enjoy working on this challenge, and happy coding!
