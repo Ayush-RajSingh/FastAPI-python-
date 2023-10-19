@@ -1,8 +1,13 @@
 from sqlalchemy import Column, Integer, String
 from database import Base
+from sqlalchemy.orm import declarative_base
 
-# Define To Do class inheriting from Base
+Base = declarative_base()
+
 class ToDo(Base):
-    __tablename__ = 'todos'
+    __tablename__ = 'todooos'
     id = Column(Integer, primary_key=True)
-    task = Column(String(256))
+    id = Column(Integer, primary_key=True, index=True)
+    title = Column(String, index=True)
+    description = Column(String)
+    owner_id = Column(Integer, index=True)
