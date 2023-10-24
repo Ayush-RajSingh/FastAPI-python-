@@ -6,7 +6,6 @@ Base = declarative_base()
 
 class ToDo(Base):
     __tablename__ = 'todooos'
-    id = Column(Integer, primary_key=True)
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String, index=True)
     description = Column(String)
